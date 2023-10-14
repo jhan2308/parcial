@@ -1,0 +1,7 @@
+<span>Inserta Tiempo: </span>
+<input [(ngModel)]="tiempo" type="number" name="tiempo"><br><br>
+<span>Inserta gravedad: </span>
+<input [(ngModel)]="gravedad" type="number" name="gravedad"><br><br>
+<span>Resultado altura: {{this.altura}}</span><br><br>
+<span>Resultado Velocidad: {{this.velocidad}}</span><br><br>
+<button type="button" (click)="resultado()">Calcular resultado</button>
